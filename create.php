@@ -62,7 +62,7 @@ function createTable()
         'goods_test' => 'pdd.goods.information.update',
     ];
     foreach ($tableArr as $key => $item) {
-        createSql($key, $item, 0);
+        createSql($key, $item, 1);
     }
 }
 
